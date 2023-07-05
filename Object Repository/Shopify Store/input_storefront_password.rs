@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_storefront_password</name>
+   <tag></tag>
+   <elementGuidId>093e5ae1-4d2e-4e35-a010-0782507a14be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'PolarisTextField') and @class = 'Polaris-TextField__Input_30ock']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>PolarisTextField</value>
+      <webElementGuid>e2e2c80e-2e8b-44b8-affa-0cfea4c9d1b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Polaris-TextField__Input_30ock</value>
+      <webElementGuid>c143a42e-e6ff-41a7-9578-51b6946f4f0e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

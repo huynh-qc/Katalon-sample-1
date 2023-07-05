@@ -1,0 +1,83 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Install Store Free,Chrome 109.0.0.0,,,2023-02-16 15:55:15,2023-02-16 16:06:39,11m - 23.560s,FAILED
+,,,,,,,
+Test Cases/Alireview/Install new store free,Chrome 109.0.0.0,,,2023-02-16 15:55:15,2023-02-16 15:56:32,1m - 16.663s,FAILED
+Start listener action : skipStatus,Chrome 109.0.0.0,,,2023-02-16 15:55:15,2023-02-16 15:55:15,0.020s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-16 15:55:15,2023-02-16 15:55:17,1.950s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-16 15:55:17,2023-02-16 15:55:18,0.144s,PASSED
+"shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name)",Chrome 109.0.0.0,,,2023-02-16 15:55:18,2023-02-16 15:55:37,18.972s,PASSED
+"alireview.install.inputRawDomain(store_name, host)",Chrome 109.0.0.0,,,2023-02-16 15:55:37,2023-02-16 15:55:57,20.931s,PASSED
+alireview.install.installStep1(),Chrome 109.0.0.0,,,2023-02-16 15:55:57,2023-02-16 15:56:31,33.923s,FAILED
+Start tear down : teardownIfFailed,Chrome 109.0.0.0,,,2023-02-16 15:56:31,2023-02-16 15:56:32,0.482s,PASSED
+,,,,,,,
+Test Cases/Alireview/Install new store free,Chrome 109.0.0.0,,,2023-02-16 15:56:32,2023-02-16 15:57:54,1m - 21.678s,FAILED
+Start listener action : skipStatus,Chrome 109.0.0.0,,,2023-02-16 15:56:32,2023-02-16 15:56:32,0.001s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-16 15:56:32,2023-02-16 15:56:34,1.709s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-16 15:56:34,2023-02-16 15:56:34,0.138s,PASSED
+"shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name)",Chrome 109.0.0.0,,,2023-02-16 15:56:34,2023-02-16 15:56:51,17.371s,PASSED
+"alireview.install.inputRawDomain(store_name, host)",Chrome 109.0.0.0,,,2023-02-16 15:56:51,2023-02-16 15:57:20,29.132s,PASSED
+alireview.install.installStep1(),Chrome 109.0.0.0,,,2023-02-16 15:57:20,2023-02-16 15:57:54,33.258s,FAILED
+Start tear down : teardownIfFailed,Chrome 109.0.0.0,,,2023-02-16 15:57:54,2023-02-16 15:57:54,0.050s,PASSED
+,,,,,,,
+Test Cases/Alireview/Install new store free,Chrome 109.0.0.0,,,2023-02-16 15:57:54,2023-02-16 15:59:08,1m - 14.319s,FAILED
+Start listener action : skipStatus,Chrome 109.0.0.0,,,2023-02-16 15:57:54,2023-02-16 15:57:54,0.000s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-16 15:57:54,2023-02-16 15:57:55,1.671s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-16 15:57:55,2023-02-16 15:57:55,0.130s,PASSED
+"shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name)",Chrome 109.0.0.0,,,2023-02-16 15:57:55,2023-02-16 15:58:12,16.564s,PASSED
+"alireview.install.inputRawDomain(store_name, host)",Chrome 109.0.0.0,,,2023-02-16 15:58:12,2023-02-16 15:58:34,22.167s,PASSED
+alireview.install.installStep1(),Chrome 109.0.0.0,,,2023-02-16 15:58:34,2023-02-16 15:59:08,33.737s,FAILED
+Start tear down : teardownIfFailed,Chrome 109.0.0.0,,,2023-02-16 15:59:08,2023-02-16 15:59:08,0.036s,PASSED
+,,,,,,,
+Test Cases/Alireview/Install new store free,Chrome 109.0.0.0,,,2023-02-16 15:59:08,2023-02-16 16:00:23,1m - 15.168s,FAILED
+Start listener action : skipStatus,Chrome 109.0.0.0,,,2023-02-16 15:59:08,2023-02-16 15:59:08,0.000s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-16 15:59:08,2023-02-16 15:59:10,1.770s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-16 15:59:10,2023-02-16 15:59:10,0.125s,PASSED
+"shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name)",Chrome 109.0.0.0,,,2023-02-16 15:59:10,2023-02-16 15:59:28,18.600s,PASSED
+"alireview.install.inputRawDomain(store_name, host)",Chrome 109.0.0.0,,,2023-02-16 15:59:28,2023-02-16 15:59:50,21.121s,PASSED
+alireview.install.installStep1(),Chrome 109.0.0.0,,,2023-02-16 15:59:50,2023-02-16 16:00:23,33.493s,FAILED
+Start tear down : teardownIfFailed,Chrome 109.0.0.0,,,2023-02-16 16:00:23,2023-02-16 16:00:23,0.034s,PASSED
+,,,,,,,
+Test Cases/Alireview/Install new store free,Chrome 109.0.0.0,,,2023-02-16 16:00:23,2023-02-16 16:01:37,1m - 14.038s,FAILED
+Start listener action : skipStatus,Chrome 109.0.0.0,,,2023-02-16 16:00:23,2023-02-16 16:00:23,0.001s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-16 16:00:23,2023-02-16 16:00:25,1.695s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-16 16:00:25,2023-02-16 16:00:25,0.144s,PASSED
+"shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name)",Chrome 109.0.0.0,,,2023-02-16 16:00:25,2023-02-16 16:00:43,18.282s,PASSED
+"alireview.install.inputRawDomain(store_name, host)",Chrome 109.0.0.0,,,2023-02-16 16:00:43,2023-02-16 16:01:04,20.488s,PASSED
+alireview.install.installStep1(),Chrome 109.0.0.0,,,2023-02-16 16:01:04,2023-02-16 16:01:37,33.374s,FAILED
+Start tear down : teardownIfFailed,Chrome 109.0.0.0,,,2023-02-16 16:01:37,2023-02-16 16:01:37,0.034s,PASSED
+,,,,,,,
+Test Cases/Alireview/Install new store free,Chrome 109.0.0.0,,,2023-02-16 16:01:37,2023-02-16 16:02:53,1m - 16.089s,FAILED
+Start listener action : skipStatus,Chrome 109.0.0.0,,,2023-02-16 16:01:37,2023-02-16 16:01:37,0.001s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-16 16:01:37,2023-02-16 16:01:39,1.705s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-16 16:01:39,2023-02-16 16:01:39,0.129s,PASSED
+"shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name)",Chrome 109.0.0.0,,,2023-02-16 16:01:39,2023-02-16 16:01:59,19.993s,PASSED
+"alireview.install.inputRawDomain(store_name, host)",Chrome 109.0.0.0,,,2023-02-16 16:01:59,2023-02-16 16:02:20,20.805s,PASSED
+alireview.install.installStep1(),Chrome 109.0.0.0,,,2023-02-16 16:02:20,2023-02-16 16:02:53,33.409s,FAILED
+Start tear down : teardownIfFailed,Chrome 109.0.0.0,,,2023-02-16 16:02:53,2023-02-16 16:02:53,0.030s,PASSED
+,,,,,,,
+Test Cases/Alireview/Install new store free,Chrome 109.0.0.0,,,2023-02-16 16:02:53,2023-02-16 16:04:08,1m - 14.707s,FAILED
+Start listener action : skipStatus,Chrome 109.0.0.0,,,2023-02-16 16:02:53,2023-02-16 16:02:53,0.000s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-16 16:02:53,2023-02-16 16:02:55,1.704s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-16 16:02:55,2023-02-16 16:02:55,0.144s,PASSED
+"shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name)",Chrome 109.0.0.0,,,2023-02-16 16:02:55,2023-02-16 16:03:15,19.476s,PASSED
+"alireview.install.inputRawDomain(store_name, host)",Chrome 109.0.0.0,,,2023-02-16 16:03:15,2023-02-16 16:03:34,19.722s,PASSED
+alireview.install.installStep1(),Chrome 109.0.0.0,,,2023-02-16 16:03:34,2023-02-16 16:04:08,33.608s,FAILED
+Start tear down : teardownIfFailed,Chrome 109.0.0.0,,,2023-02-16 16:04:08,2023-02-16 16:04:08,0.033s,PASSED
+,,,,,,,
+Test Cases/Alireview/Install new store free,Chrome 109.0.0.0,,,2023-02-16 16:04:08,2023-02-16 16:05:25,1m - 16.766s,FAILED
+Start listener action : skipStatus,Chrome 109.0.0.0,,,2023-02-16 16:04:08,2023-02-16 16:04:08,0.000s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-16 16:04:08,2023-02-16 16:04:10,1.717s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-16 16:04:10,2023-02-16 16:04:10,0.131s,PASSED
+"shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name)",Chrome 109.0.0.0,,,2023-02-16 16:04:10,2023-02-16 16:04:29,19.531s,PASSED
+"alireview.install.inputRawDomain(store_name, host)",Chrome 109.0.0.0,,,2023-02-16 16:04:29,2023-02-16 16:04:51,21.917s,PASSED
+alireview.install.installStep1(),Chrome 109.0.0.0,,,2023-02-16 16:04:51,2023-02-16 16:05:25,33.421s,FAILED
+Start tear down : teardownIfFailed,Chrome 109.0.0.0,,,2023-02-16 16:05:25,2023-02-16 16:05:25,0.023s,PASSED
+,,,,,,,
+Test Cases/Alireview/Install new store free,Chrome 109.0.0.0,,,2023-02-16 16:05:25,2023-02-16 16:06:39,1m - 13.852s,FAILED
+Start listener action : skipStatus,Chrome 109.0.0.0,,,2023-02-16 16:05:25,2023-02-16 16:05:25,0.000s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-16 16:05:25,2023-02-16 16:05:26,1.728s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-02-16 16:05:26,2023-02-16 16:05:27,0.130s,PASSED
+"shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name)",Chrome 109.0.0.0,,,2023-02-16 16:05:27,2023-02-16 16:05:44,17.883s,PASSED
+"alireview.install.inputRawDomain(store_name, host)",Chrome 109.0.0.0,,,2023-02-16 16:05:44,2023-02-16 16:06:05,20.620s,PASSED
+alireview.install.installStep1(),Chrome 109.0.0.0,,,2023-02-16 16:06:05,2023-02-16 16:06:39,33.443s,FAILED
+Start tear down : teardownIfFailed,Chrome 109.0.0.0,,,2023-02-16 16:06:39,2023-02-16 16:06:39,0.025s,PASSED

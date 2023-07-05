@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Debug login store</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d15011d8-92ec-4fea-9d28-344e39fc99d6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1739952d-2596-4da7-bda2-3d3655ad3f8b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'huynh-ar-stag-2402'</defaultValue>
+      <description></description>
+      <id>1739952d-2596-4da7-bda2-3d3655ad3f8b</id>
+      <masked>false</masked>
+      <name>store_name</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Store Develop Mode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57d1623c-ea43-4b05-9340-de05996a97ef</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f2a4161-1b85-4799-ac72-1b6a40d91696</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'huynh-ar-stag-2017'</defaultValue>
+      <description></description>
+      <id>7f2a4161-1b85-4799-ac72-1b6a40d91696</id>
+      <masked>false</masked>
+      <name>store_name</name>
+   </variable>
+</TestCaseEntity>

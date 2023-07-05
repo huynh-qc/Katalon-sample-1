@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Store</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>daf17a82-9c71-4b76-92d1-82cc461b5a47</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d8d08e3-d843-4df5-ac79-fc54ca2b9f2f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://huynh-ar-stag-2009.myshopify.com/admin'</defaultValue>
+      <description></description>
+      <id>7d8d08e3-d843-4df5-ac79-fc54ca2b9f2f</id>
+      <masked>false</masked>
+      <name>raw_domain</name>
+   </variable>
+</TestCaseEntity>

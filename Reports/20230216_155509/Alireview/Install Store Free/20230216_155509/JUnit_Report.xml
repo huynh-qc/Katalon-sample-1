@@ -1,0 +1,2085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Install Store Free" time="683.56" tests="9" failures="9" errors="0">
+   <testsuite name="Install Store Free" tests="9" failures="9" errors="0" time="683.56" skipped="0" timestamp="2023-02-16 15:55:15" hostname="huynh - huynh.mshome.net" id="Test Suites/Alireview/Install Store Free">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509"/>
+         <property name="logFiles" value="C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676537791639.png, C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676537873874.png, C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676537948175.png, C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676538023384.png, C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676538097439.png, C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676538173539.png, C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676538248246.png, C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676538325024.png, C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676538398896.png"/>
+         <property name="hostName" value="huynh - huynh.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="172.18.224.1"/>
+         <property name="sessionId" value="6926e58ac71f62b62fe083e3376192eb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Alireview/Install new store free" time="76.663" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 15:55:15 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 15:55:15 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 15:55:15 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 15:55:15 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 15:55:15 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 15:55:15 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 15:55:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 15:55:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 15:55:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 15:55:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 15:55:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 15:55:18 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 15:55:18 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 15:55:22 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2365.myshopify.com/admin' successfully
+
+2023-02-16 15:55:23 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 15:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 15:55:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 15:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 15:55:37 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 15:55:37 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 15:55:55 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 15:55:56 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2365' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 15:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 15:55:57 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 15:55:57 - [TEST_STEP][FAILED] - alireview.install.installStep1(): Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 15:56:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[text()='Install app']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 15:56:29 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Shopify Install App/btn_install_step1'. Try using Self-healing.
+
+2023-02-16 15:56:30 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 15:56:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 15:56:31 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 15:56:31 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676537791639.png]]
+
+2023-02-16 15:56:31 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 15:56:31 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 15:56:31 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 15:56:31 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 15:56:32 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 15:56:32 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 15:55:15 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alireview/Install new store free" time="81.678" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 15:56:32 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 15:56:32 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 15:56:32 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 15:56:32 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 15:56:32 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 15:56:32 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 15:56:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 15:56:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-16 15:56:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 15:56:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 15:56:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 15:56:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 15:56:34 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 15:56:34 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 15:56:39 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2366.myshopify.com/admin' successfully
+
+2023-02-16 15:56:40 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 15:56:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 15:56:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 15:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 15:56:51 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 15:56:51 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 15:57:18 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 15:57:18 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2366' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 15:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 15:57:20 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 15:57:20 - [TEST_STEP][FAILED] - alireview.install.installStep1(): Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 15:57:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[text()='Install app']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 15:57:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Shopify Install App/btn_install_step1'. Try using Self-healing.
+
+2023-02-16 15:57:52 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 15:57:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 15:57:53 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 15:57:54 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676537873874.png]]
+
+2023-02-16 15:57:54 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 15:57:54 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 15:57:54 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 15:57:54 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 15:57:54 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 15:57:54 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 15:56:32 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alireview/Install new store free" time="74.319" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 15:57:54 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 15:57:54 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 15:57:54 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 15:57:54 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 15:57:54 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 15:57:54 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 15:57:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 15:57:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-16 15:57:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 15:57:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 15:57:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 15:57:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 15:57:55 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 15:57:55 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 15:58:00 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2367.myshopify.com/admin' successfully
+
+2023-02-16 15:58:01 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 15:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 15:58:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 15:58:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 15:58:12 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 15:58:12 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 15:58:31 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 15:58:32 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2367' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 15:58:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 15:58:34 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 15:58:34 - [TEST_STEP][FAILED] - alireview.install.installStep1(): Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 15:59:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[text()='Install app']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 15:59:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Shopify Install App/btn_install_step1'. Try using Self-healing.
+
+2023-02-16 15:59:06 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 15:59:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 15:59:08 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 15:59:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676537948175.png]]
+
+2023-02-16 15:59:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 15:59:08 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 15:59:08 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 15:59:08 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 15:59:08 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 15:59:08 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 15:57:54 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alireview/Install new store free" time="75.168" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 15:59:08 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 15:59:08 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 15:59:08 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 15:59:08 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 15:59:08 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 15:59:08 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 15:59:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 15:59:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-16 15:59:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 15:59:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 15:59:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 15:59:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 15:59:10 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 15:59:10 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 15:59:14 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2368.myshopify.com/admin' successfully
+
+2023-02-16 15:59:15 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 15:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 15:59:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 15:59:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 15:59:28 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 15:59:28 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 15:59:47 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 15:59:47 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2368' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 15:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 15:59:50 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 15:59:50 - [TEST_STEP][FAILED] - alireview.install.installStep1(): Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 16:00:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[text()='Install app']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 16:00:21 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Shopify Install App/btn_install_step1'. Try using Self-healing.
+
+2023-02-16 16:00:22 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 16:00:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 16:00:23 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 16:00:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676538023384.png]]
+
+2023-02-16 16:00:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 16:00:23 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 16:00:23 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 16:00:23 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 16:00:23 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 16:00:23 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 15:59:08 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alireview/Install new store free" time="74.038" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 16:00:23 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 16:00:23 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 16:00:23 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 16:00:23 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 16:00:23 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 16:00:23 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 16:00:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 16:00:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-16 16:00:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 16:00:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 16:00:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 16:00:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 16:00:25 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 16:00:25 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 16:00:29 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2369.myshopify.com/admin' successfully
+
+2023-02-16 16:00:30 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 16:00:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 16:00:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 16:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 16:00:43 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 16:00:43 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 16:01:01 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 16:01:02 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2369' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 16:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 16:01:04 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 16:01:04 - [TEST_STEP][FAILED] - alireview.install.installStep1(): Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 16:01:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[text()='Install app']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 16:01:35 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Shopify Install App/btn_install_step1'. Try using Self-healing.
+
+2023-02-16 16:01:36 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 16:01:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 16:01:37 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 16:01:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676538097439.png]]
+
+2023-02-16 16:01:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 16:01:37 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 16:01:37 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 16:01:37 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 16:01:37 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 16:01:37 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 16:00:23 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alireview/Install new store free" time="76.089" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 16:01:37 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 16:01:37 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 16:01:37 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 16:01:37 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 16:01:37 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 16:01:37 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 16:01:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 16:01:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-16 16:01:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 16:01:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 16:01:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 16:01:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 16:01:39 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 16:01:39 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 16:01:44 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2370.myshopify.com/admin' successfully
+
+2023-02-16 16:01:45 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 16:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 16:01:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 16:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 16:01:59 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 16:01:59 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 16:02:17 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 16:02:18 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2370' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 16:02:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 16:02:20 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 16:02:20 - [TEST_STEP][FAILED] - alireview.install.installStep1(): Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 16:02:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[text()='Install app']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 16:02:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Shopify Install App/btn_install_step1'. Try using Self-healing.
+
+2023-02-16 16:02:52 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 16:02:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 16:02:53 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 16:02:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676538173539.png]]
+
+2023-02-16 16:02:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 16:02:53 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 16:02:53 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 16:02:53 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 16:02:53 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 16:02:53 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 16:01:37 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alireview/Install new store free" time="74.707" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 16:02:53 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 16:02:53 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 16:02:53 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 16:02:53 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 16:02:53 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 16:02:53 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 16:02:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 16:02:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-16 16:02:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 16:02:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 16:02:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 16:02:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 16:02:55 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 16:02:55 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 16:03:00 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2371.myshopify.com/admin' successfully
+
+2023-02-16 16:03:01 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 16:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 16:03:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 16:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 16:03:15 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 16:03:15 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 16:03:32 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 16:03:32 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2371' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 16:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 16:03:34 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 16:03:34 - [TEST_STEP][FAILED] - alireview.install.installStep1(): Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 16:04:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[text()='Install app']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 16:04:06 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Shopify Install App/btn_install_step1'. Try using Self-healing.
+
+2023-02-16 16:04:07 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 16:04:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 16:04:08 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 16:04:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676538248246.png]]
+
+2023-02-16 16:04:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 16:04:08 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 16:04:08 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 16:04:08 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 16:04:08 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 16:04:08 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 16:02:53 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alireview/Install new store free" time="76.766" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 16:04:08 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 16:04:08 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 16:04:08 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 16:04:08 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 16:04:08 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 16:04:08 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 16:04:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 16:04:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-16 16:04:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 16:04:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 16:04:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 16:04:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 16:04:10 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 16:04:10 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 16:04:15 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2372.myshopify.com/admin' successfully
+
+2023-02-16 16:04:16 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 16:04:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 16:04:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 16:04:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 16:04:29 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 16:04:29 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 16:04:48 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 16:04:49 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2372' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 16:04:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 16:04:51 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 16:04:51 - [TEST_STEP][FAILED] - alireview.install.installStep1(): Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 16:05:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[text()='Install app']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 16:05:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Shopify Install App/btn_install_step1'. Try using Self-healing.
+
+2023-02-16 16:05:24 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 16:05:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 16:05:25 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 16:05:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676538325024.png]]
+
+2023-02-16 16:05:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 16:05:25 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 16:05:25 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 16:05:25 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 16:05:25 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 16:05:25 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 16:04:08 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alireview/Install new store free" time="73.852" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 16:05:25 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 16:05:25 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 16:05:25 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 16:05:25 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 16:05:25 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 16:05:25 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 16:05:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 16:05:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-16 16:05:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 16:05:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 16:05:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 16:05:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 16:05:27 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 16:05:27 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 16:05:31 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2373.myshopify.com/admin' successfully
+
+2023-02-16 16:05:32 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 16:05:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 16:05:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 16:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 16:05:44 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 16:05:44 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 16:06:02 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 16:06:03 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2373' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 16:06:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 16:06:05 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 16:06:05 - [TEST_STEP][FAILED] - alireview.install.installStep1(): Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 16:06:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[text()='Install app']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 16:06:36 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Shopify Install App/btn_install_step1'. Try using Self-healing.
+
+2023-02-16 16:06:37 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 16:06:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 16:06:38 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 16:06:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_155509\\Alireview\\Install Store Free\\20230216_155509\\1676538398896.png]]
+
+2023-02-16 16:06:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+
+2023-02-16 16:06:39 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 16:06:39 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 16:06:39 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 16:06:39 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 16:06:39 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 16:05:25 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-16 15:55:15 - [TEST_SUITE][FAILED] - Install Store Free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-out>
+      <system-err><![CDATA[2023-02-16 15:55:15 - [TEST_SUITE][FAILED] - Install Store Free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Shopify Install App/btn_install_step1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at alireview.install.installStep1(install.groovy:32)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676537709327.run(TempTestSuite1676537709327.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Shopify Install App/btn_install_step1' located by '//span[text()='Install app']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+   </testsuite>
+</testsuites>

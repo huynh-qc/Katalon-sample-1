@@ -1,0 +1,742 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create Store,Chrome 110.0.0.0,,,2023-03-07 11:19:01,2023-03-07 13:41:53,2h - 22m - 52.420s,FAILED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 11:19:01,2023-03-07 11:19:01,0.034s,SKIPPED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 11:19:01,2023-03-07 11:19:01,0.011s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 11:19:01,2023-03-07 11:19:01,0.010s,SKIPPED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 11:19:01,2023-03-07 11:19:01,0.000s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 11:19:01,2023-03-07 11:24:04,5m - 2.946s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 11:19:01,2023-03-07 11:19:01,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 11:19:01,2023-03-07 11:19:01,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 11:19:01,2023-03-07 11:19:03,1.676s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 11:19:03,2023-03-07 11:19:03,0.152s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 11:19:03,2023-03-07 11:19:19,15.785s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 11:19:19,2023-03-07 11:19:20,0.735s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 11:19:20,2023-03-07 11:19:26,6.605s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 11:19:26,2023-03-07 11:19:27,0.430s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 11:19:27,2023-03-07 11:20:48,1m - 21.200s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 11:20:48,2023-03-07 11:20:58,10.422s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 11:20:58,2023-03-07 11:21:19,20.486s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 11:21:19,2023-03-07 11:22:15,55.977s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 11:22:15,2023-03-07 11:23:16,1m - 1.078s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 11:23:16,2023-03-07 11:23:26,10.498s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 11:23:26,2023-03-07 11:23:44,17.735s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 11:23:44,2023-03-07 11:23:45,0.490s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 11:23:45,2023-03-07 11:24:04,19.003s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 11:24:04,2023-03-07 11:24:04,0.375s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 11:24:04,2023-03-07 11:29:07,5m - 2.737s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 11:24:04,2023-03-07 11:24:04,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 11:24:04,2023-03-07 11:24:04,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 11:24:04,2023-03-07 11:24:06,1.720s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 11:24:06,2023-03-07 11:24:06,0.130s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 11:24:06,2023-03-07 11:24:22,16.618s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 11:24:22,2023-03-07 11:24:23,0.853s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 11:24:23,2023-03-07 11:24:30,6.535s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 11:24:30,2023-03-07 11:24:30,0.382s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 11:24:30,2023-03-07 11:25:52,1m - 21.517s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 11:25:52,2023-03-07 11:26:02,10.395s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 11:26:02,2023-03-07 11:26:23,20.469s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 11:26:23,2023-03-07 11:27:17,54.575s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 11:27:17,2023-03-07 11:28:18,1m - 0.844s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 11:28:18,2023-03-07 11:28:28,10.432s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 11:28:28,2023-03-07 11:28:46,17.431s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 11:28:46,2023-03-07 11:28:46,0.556s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 11:28:46,2023-03-07 11:29:07,20.203s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 11:29:07,2023-03-07 11:29:07,0.044s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 11:29:07,2023-03-07 11:34:10,5m - 3.445s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 11:29:07,2023-03-07 11:29:07,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 11:29:07,2023-03-07 11:29:07,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 11:29:07,2023-03-07 11:29:08,1.725s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 11:29:08,2023-03-07 11:29:09,0.132s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 11:29:09,2023-03-07 11:29:24,15.522s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 11:29:24,2023-03-07 11:29:25,0.831s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 11:29:25,2023-03-07 11:29:32,6.536s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 11:29:32,2023-03-07 11:29:32,0.351s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 11:29:32,2023-03-07 11:30:54,1m - 22.173s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 11:30:54,2023-03-07 11:31:04,10.401s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 11:31:04,2023-03-07 11:31:25,20.502s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 11:31:25,2023-03-07 11:32:19,53.651s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 11:32:19,2023-03-07 11:33:20,1m - 1.009s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 11:33:20,2023-03-07 11:33:30,10.483s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 11:33:30,2023-03-07 11:33:51,20.812s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 11:33:51,2023-03-07 11:33:51,0.545s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 11:33:51,2023-03-07 11:34:10,18.714s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 11:34:10,2023-03-07 11:34:10,0.039s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 11:34:10,2023-03-07 11:38:40,4m - 29.749s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 11:34:10,2023-03-07 11:34:10,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 11:34:10,2023-03-07 11:34:10,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 11:34:10,2023-03-07 11:34:12,1.730s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 11:34:12,2023-03-07 11:34:12,0.133s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 11:34:12,2023-03-07 11:34:27,15.354s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 11:34:27,2023-03-07 11:34:28,0.791s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 11:34:28,2023-03-07 11:34:35,6.569s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 11:34:35,2023-03-07 11:34:35,0.362s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 11:34:35,2023-03-07 11:35:54,1m - 19.187s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 11:35:54,2023-03-07 11:36:05,10.396s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 11:36:05,2023-03-07 11:36:25,20.486s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 11:36:25,2023-03-07 11:36:51,25.258s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 11:36:51,2023-03-07 11:37:51,1m - 0.919s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 11:37:51,2023-03-07 11:38:02,10.429s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 11:38:02,2023-03-07 11:38:20,18.291s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 11:38:20,2023-03-07 11:38:21,0.570s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 11:38:21,2023-03-07 11:38:40,19.221s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 11:38:40,2023-03-07 11:38:40,0.032s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 11:38:40,2023-03-07 11:39:39,58.919s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 11:38:40,2023-03-07 11:38:40,0.001s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 11:38:40,2023-03-07 11:38:40,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 11:38:40,2023-03-07 11:38:42,1.683s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 11:38:42,2023-03-07 11:38:42,0.134s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 11:38:42,2023-03-07 11:38:58,15.881s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 11:38:58,2023-03-07 11:38:59,0.874s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 11:38:59,2023-03-07 11:39:05,6.534s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 11:39:05,2023-03-07 11:39:06,0.380s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 11:39:06,2023-03-07 11:39:39,33.388s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 11:39:39,2023-03-07 11:39:39,0.028s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 11:39:39,2023-03-07 11:44:42,5m - 2.513s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 11:39:39,2023-03-07 11:39:39,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 11:39:39,2023-03-07 11:39:39,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 11:39:39,2023-03-07 11:39:41,1.677s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 11:39:41,2023-03-07 11:39:41,0.138s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 11:39:41,2023-03-07 11:39:58,17.070s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 11:39:58,2023-03-07 11:39:59,1.571s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 11:39:59,2023-03-07 11:40:06,6.629s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 11:40:06,2023-03-07 11:40:06,0.367s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 11:40:06,2023-03-07 11:41:29,1m - 22.246s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 11:41:29,2023-03-07 11:41:39,10.425s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 11:41:39,2023-03-07 11:42:00,20.491s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 11:42:00,2023-03-07 11:42:53,53.504s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 11:42:53,2023-03-07 11:43:54,1m - 0.969s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 11:43:54,2023-03-07 11:44:05,10.474s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 11:44:05,2023-03-07 11:44:22,17.904s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 11:44:22,2023-03-07 11:44:23,0.554s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 11:44:23,2023-03-07 11:44:41,18.440s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 11:44:41,2023-03-07 11:44:42,0.036s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 11:44:42,2023-03-07 11:45:45,1m - 3.904s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 11:44:42,2023-03-07 11:44:42,0.001s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 11:44:42,2023-03-07 11:44:42,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 11:44:42,2023-03-07 11:44:43,1.752s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 11:44:43,2023-03-07 11:44:43,0.142s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 11:44:43,2023-03-07 11:45:01,17.065s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 11:45:01,2023-03-07 11:45:01,0.745s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 11:45:01,2023-03-07 11:45:08,7.102s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 11:45:08,2023-03-07 11:45:09,0.369s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 11:45:09,2023-03-07 11:45:45,36.678s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 11:45:45,2023-03-07 11:45:45,0.025s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 11:45:46,2023-03-07 11:46:47,1m - 1.521s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 11:45:46,2023-03-07 11:45:46,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 11:45:46,2023-03-07 11:45:46,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 11:45:46,2023-03-07 11:45:47,1.688s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 11:45:47,2023-03-07 11:45:47,0.138s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 11:45:47,2023-03-07 11:46:06,18.158s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 11:46:06,2023-03-07 11:46:06,0.783s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 11:46:06,2023-03-07 11:46:13,6.794s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 11:46:13,2023-03-07 11:46:13,0.352s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 11:46:13,2023-03-07 11:46:47,33.570s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 11:46:47,2023-03-07 11:46:47,0.022s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 11:46:47,2023-03-07 11:47:45,57.806s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 11:46:47,2023-03-07 11:46:47,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 11:46:47,2023-03-07 11:46:47,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 11:46:47,2023-03-07 11:46:49,1.703s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 11:46:49,2023-03-07 11:46:49,0.138s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 11:46:49,2023-03-07 11:47:04,14.617s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 11:47:04,2023-03-07 11:47:04,0.754s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 11:47:04,2023-03-07 11:47:11,6.590s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 11:47:11,2023-03-07 11:47:11,0.354s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 11:47:11,2023-03-07 11:47:45,33.613s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 11:47:45,2023-03-07 11:47:45,0.020s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 11:47:45,2023-03-07 11:52:42,4m - 57.029s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 11:47:45,2023-03-07 11:47:45,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 11:47:45,2023-03-07 11:47:45,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 11:47:45,2023-03-07 11:47:47,1.675s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 11:47:47,2023-03-07 11:47:47,0.137s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 11:47:47,2023-03-07 11:48:01,14.106s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 11:48:01,2023-03-07 11:48:02,0.743s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 11:48:02,2023-03-07 11:48:08,6.538s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 11:48:08,2023-03-07 11:48:09,0.380s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 11:48:09,2023-03-07 11:49:30,1m - 21.977s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 11:49:30,2023-03-07 11:49:41,10.406s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 11:49:41,2023-03-07 11:50:01,20.484s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 11:50:01,2023-03-07 11:50:53,51.936s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 11:50:53,2023-03-07 11:51:54,1m - 0.907s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 11:51:54,2023-03-07 11:52:05,10.497s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 11:52:05,2023-03-07 11:52:23,18.028s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 11:52:23,2023-03-07 11:52:23,0.562s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 11:52:23,2023-03-07 11:52:42,18.614s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 11:52:42,2023-03-07 11:52:42,0.021s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 11:52:42,2023-03-07 11:57:14,4m - 31.734s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 11:52:42,2023-03-07 11:52:42,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 11:52:42,2023-03-07 11:52:42,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 11:52:42,2023-03-07 11:52:44,1.689s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 11:52:44,2023-03-07 11:52:44,0.131s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 11:52:44,2023-03-07 11:52:59,14.743s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 11:52:59,2023-03-07 11:52:59,0.806s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 11:52:59,2023-03-07 11:53:06,6.542s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 11:53:06,2023-03-07 11:53:06,0.350s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 11:53:06,2023-03-07 11:54:28,1m - 21.349s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 11:54:28,2023-03-07 11:54:38,10.404s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 11:54:38,2023-03-07 11:54:59,20.504s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 11:54:59,2023-03-07 11:55:25,26.219s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 11:55:25,2023-03-07 11:56:26,1m - 0.902s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 11:56:26,2023-03-07 11:56:36,10.435s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 11:56:36,2023-03-07 11:56:54,17.472s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 11:56:54,2023-03-07 11:56:54,0.555s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 11:56:54,2023-03-07 11:57:14,19.584s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 11:57:14,2023-03-07 11:57:14,0.026s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 11:57:14,2023-03-07 12:00:29,3m - 14.957s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 11:57:14,2023-03-07 11:57:14,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 11:57:14,2023-03-07 11:57:14,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 11:57:14,2023-03-07 11:57:16,1.733s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 11:57:16,2023-03-07 11:57:16,0.133s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 11:57:16,2023-03-07 11:57:35,19.720s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 11:57:35,2023-03-07 11:57:36,0.786s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 11:57:36,2023-03-07 11:57:43,6.573s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 11:57:43,2023-03-07 11:57:43,0.385s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 11:57:43,2023-03-07 11:59:07,1m - 23.502s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 11:59:07,2023-03-07 11:59:17,10.415s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 11:59:17,2023-03-07 11:59:38,20.488s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 11:59:38,2023-03-07 12:00:29,51.188s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 12:00:29,2023-03-07 12:00:29,0.024s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:00:29,2023-03-07 12:01:26,57.633s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:00:29,2023-03-07 12:00:29,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:00:29,2023-03-07 12:00:29,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:00:29,2023-03-07 12:00:30,1.710s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 12:00:30,2023-03-07 12:00:31,0.135s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 12:00:31,2023-03-07 12:00:45,14.392s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 12:00:45,2023-03-07 12:00:46,0.730s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 12:00:46,2023-03-07 12:00:52,6.589s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 12:00:52,2023-03-07 12:00:53,0.380s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 12:00:53,2023-03-07 12:01:26,33.659s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 12:01:26,2023-03-07 12:01:26,0.024s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:01:26,2023-03-07 12:06:27,5m - 0.583s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:01:26,2023-03-07 12:01:26,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:01:26,2023-03-07 12:01:26,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:01:26,2023-03-07 12:01:28,1.708s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 12:01:28,2023-03-07 12:01:28,0.136s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 12:01:28,2023-03-07 12:01:45,16.427s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 12:01:45,2023-03-07 12:01:45,0.771s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 12:01:45,2023-03-07 12:01:52,6.578s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 12:01:52,2023-03-07 12:01:52,0.374s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 12:01:52,2023-03-07 12:03:12,1m - 19.796s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 12:03:12,2023-03-07 12:03:23,10.404s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 12:03:23,2023-03-07 12:03:43,20.496s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:03:43,2023-03-07 12:04:37,54.016s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:04:37,2023-03-07 12:05:38,1m - 0.890s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:05:38,2023-03-07 12:05:48,10.439s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:05:48,2023-03-07 12:06:08,19.299s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 12:06:08,2023-03-07 12:06:08,0.550s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 12:06:08,2023-03-07 12:06:27,18.667s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 12:06:27,2023-03-07 12:06:27,0.023s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:06:27,2023-03-07 12:07:25,57.758s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:06:27,2023-03-07 12:06:27,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:06:27,2023-03-07 12:06:27,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:06:27,2023-03-07 12:06:29,1.752s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 12:06:29,2023-03-07 12:06:29,0.139s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 12:06:29,2023-03-07 12:06:44,14.739s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 12:06:44,2023-03-07 12:06:44,0.774s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 12:06:44,2023-03-07 12:06:51,6.558s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 12:06:51,2023-03-07 12:06:51,0.357s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 12:06:51,2023-03-07 12:07:25,33.396s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 12:07:25,2023-03-07 12:07:25,0.023s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:07:25,2023-03-07 12:12:31,5m - 5.832s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:07:25,2023-03-07 12:07:25,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:07:25,2023-03-07 12:07:25,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:07:25,2023-03-07 12:07:27,1.718s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 12:07:27,2023-03-07 12:07:27,0.134s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 12:07:27,2023-03-07 12:07:40,13.721s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 12:07:40,2023-03-07 12:07:41,0.815s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 12:07:41,2023-03-07 12:07:48,6.551s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 12:07:48,2023-03-07 12:07:48,0.359s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 12:07:48,2023-03-07 12:09:10,1m - 21.871s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 12:09:10,2023-03-07 12:09:20,10.397s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 12:09:20,2023-03-07 12:09:41,20.500s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:09:41,2023-03-07 12:10:42,1m - 0.895s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:10:42,2023-03-07 12:11:43,1m - 0.918s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:11:43,2023-03-07 12:11:53,10.473s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:11:53,2023-03-07 12:12:12,18.490s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 12:12:12,2023-03-07 12:12:12,0.467s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 12:12:12,2023-03-07 12:12:31,18.485s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 12:12:31,2023-03-07 12:12:31,0.031s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:12:31,2023-03-07 12:13:29,57.842s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:12:31,2023-03-07 12:12:31,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:12:31,2023-03-07 12:12:31,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:12:31,2023-03-07 12:12:32,1.752s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 12:12:32,2023-03-07 12:12:33,0.131s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 12:12:33,2023-03-07 12:12:47,14.800s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 12:12:47,2023-03-07 12:12:48,0.734s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 12:12:48,2023-03-07 12:12:55,6.519s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 12:12:55,2023-03-07 12:12:55,0.366s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 12:12:55,2023-03-07 12:13:29,33.491s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 12:13:29,2023-03-07 12:13:29,0.026s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:13:29,2023-03-07 12:18:29,4m - 59.911s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:13:29,2023-03-07 12:13:29,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:13:29,2023-03-07 12:13:29,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:13:29,2023-03-07 12:13:30,1.695s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 12:13:30,2023-03-07 12:13:30,0.132s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 12:13:30,2023-03-07 12:13:45,14.367s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 12:13:45,2023-03-07 12:13:46,0.698s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 12:13:46,2023-03-07 12:13:52,6.510s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 12:13:52,2023-03-07 12:13:52,0.367s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 12:13:52,2023-03-07 12:15:15,1m - 22.818s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 12:15:15,2023-03-07 12:15:26,10.415s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 12:15:26,2023-03-07 12:15:46,20.485s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:15:46,2023-03-07 12:16:41,54.482s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:16:41,2023-03-07 12:17:42,1m - 0.955s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:17:42,2023-03-07 12:17:52,10.473s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:17:52,2023-03-07 12:18:10,17.714s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 12:18:10,2023-03-07 12:18:10,0.471s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 12:18:10,2023-03-07 12:18:29,18.299s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 12:18:29,2023-03-07 12:18:29,0.023s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:18:29,2023-03-07 12:19:26,57.163s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:18:29,2023-03-07 12:18:29,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:18:29,2023-03-07 12:18:29,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:18:29,2023-03-07 12:18:30,1.715s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 12:18:30,2023-03-07 12:18:30,0.139s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 12:18:30,2023-03-07 12:18:44,14.036s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 12:18:44,2023-03-07 12:18:45,0.772s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 12:18:45,2023-03-07 12:18:52,6.562s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 12:18:52,2023-03-07 12:18:52,0.351s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 12:18:52,2023-03-07 12:19:26,33.567s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 12:19:26,2023-03-07 12:19:26,0.011s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:19:26,2023-03-07 12:24:26,5m - 0.036s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:19:26,2023-03-07 12:19:26,0.005s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:19:26,2023-03-07 12:19:26,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:19:26,2023-03-07 12:19:28,1.739s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 12:19:28,2023-03-07 12:19:28,0.138s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 12:19:28,2023-03-07 12:19:43,15.246s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 12:19:43,2023-03-07 12:19:44,0.781s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 12:19:44,2023-03-07 12:19:51,7.008s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 12:19:51,2023-03-07 12:19:51,0.373s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 12:19:51,2023-03-07 12:21:13,1m - 22.234s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 12:21:13,2023-03-07 12:21:24,10.413s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 12:21:24,2023-03-07 12:21:44,20.484s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:21:44,2023-03-07 12:22:36,52.253s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:22:36,2023-03-07 12:23:37,1m - 0.957s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:23:37,2023-03-07 12:23:48,10.497s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:23:48,2023-03-07 12:24:06,18.172s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 12:24:06,2023-03-07 12:24:07,0.541s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 12:24:07,2023-03-07 12:24:26,19.156s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 12:24:26,2023-03-07 12:24:26,0.022s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:24:26,2023-03-07 12:28:55,4m - 28.797s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:24:26,2023-03-07 12:24:26,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:24:26,2023-03-07 12:24:26,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:24:26,2023-03-07 12:24:28,1.754s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 12:24:28,2023-03-07 12:24:28,0.140s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 12:24:28,2023-03-07 12:24:41,13.514s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 12:24:41,2023-03-07 12:24:42,0.771s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 12:24:42,2023-03-07 12:24:49,6.568s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 12:24:49,2023-03-07 12:24:49,0.357s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 12:24:49,2023-03-07 12:26:11,1m - 21.729s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 12:26:11,2023-03-07 12:26:21,10.411s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 12:26:21,2023-03-07 12:26:42,20.485s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:26:42,2023-03-07 12:27:06,24.669s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:27:06,2023-03-07 12:28:07,1m - 0.912s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:28:07,2023-03-07 12:28:18,10.471s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:28:18,2023-03-07 12:28:35,17.833s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 12:28:35,2023-03-07 12:28:36,0.581s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 12:28:36,2023-03-07 12:28:55,18.552s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 12:28:55,2023-03-07 12:28:55,0.025s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:28:55,2023-03-07 12:32:00,3m - 5.146s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:28:55,2023-03-07 12:28:55,0.001s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:28:55,2023-03-07 12:28:55,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:28:55,2023-03-07 12:28:56,1.725s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 12:28:56,2023-03-07 12:28:57,0.144s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 12:28:57,2023-03-07 12:29:12,15.093s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 12:29:12,2023-03-07 12:29:12,0.746s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 12:29:12,2023-03-07 12:29:19,6.575s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 12:29:19,2023-03-07 12:29:19,0.359s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 12:29:19,2023-03-07 12:30:39,1m - 19.806s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 12:30:39,2023-03-07 12:30:50,10.390s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 12:30:50,2023-03-07 12:31:10,20.470s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:31:10,2023-03-07 12:32:00,49.788s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 12:32:00,2023-03-07 12:32:00,0.012s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:32:00,2023-03-07 12:37:04,5m - 4.276s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:32:00,2023-03-07 12:32:00,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:32:00,2023-03-07 12:32:00,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:32:00,2023-03-07 12:32:02,1.723s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 12:32:02,2023-03-07 12:32:02,0.143s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 12:32:02,2023-03-07 12:32:16,14.520s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 12:32:16,2023-03-07 12:32:17,0.759s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 12:32:17,2023-03-07 12:32:24,6.554s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 12:32:24,2023-03-07 12:32:24,0.383s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 12:32:24,2023-03-07 12:33:48,1m - 23.573s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 12:33:48,2023-03-07 12:33:58,10.404s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 12:33:58,2023-03-07 12:34:18,20.479s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:34:18,2023-03-07 12:35:14,55.922s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:35:14,2023-03-07 12:36:15,1m - 0.947s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:36:15,2023-03-07 12:36:26,10.482s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:36:26,2023-03-07 12:36:45,19.237s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 12:36:45,2023-03-07 12:36:46,0.589s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 12:36:46,2023-03-07 12:37:04,18.528s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 12:37:04,2023-03-07 12:37:04,0.018s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:37:04,2023-03-07 12:42:05,5m - 0.641s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:37:04,2023-03-07 12:37:04,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:37:04,2023-03-07 12:37:04,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:37:04,2023-03-07 12:37:06,1.708s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 12:37:06,2023-03-07 12:37:06,0.138s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 12:37:06,2023-03-07 12:37:22,16.035s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 12:37:22,2023-03-07 12:37:23,1.006s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 12:37:23,2023-03-07 12:37:30,6.530s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 12:37:30,2023-03-07 12:37:30,0.371s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 12:37:30,2023-03-07 12:38:52,1m - 22.098s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 12:38:52,2023-03-07 12:39:02,10.401s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 12:39:02,2023-03-07 12:39:23,20.493s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:39:23,2023-03-07 12:40:16,52.992s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:40:16,2023-03-07 12:41:17,1m - 0.952s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:41:17,2023-03-07 12:41:27,10.437s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:41:27,2023-03-07 12:41:45,18.090s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 12:41:45,2023-03-07 12:41:46,0.586s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 12:41:46,2023-03-07 12:42:05,18.759s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 12:42:05,2023-03-07 12:42:05,0.015s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:42:05,2023-03-07 12:46:39,4m - 34.166s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:42:05,2023-03-07 12:42:05,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:42:05,2023-03-07 12:42:05,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:42:05,2023-03-07 12:42:07,1.774s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 12:42:07,2023-03-07 12:42:07,0.137s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 12:42:07,2023-03-07 12:42:22,15.168s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 12:42:22,2023-03-07 12:42:23,1.355s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 12:42:23,2023-03-07 12:42:30,6.643s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 12:42:30,2023-03-07 12:42:30,0.353s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 12:42:30,2023-03-07 12:43:54,1m - 23.572s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 12:43:54,2023-03-07 12:44:04,10.397s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 12:44:04,2023-03-07 12:44:25,20.478s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:44:25,2023-03-07 12:44:50,25.598s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:44:50,2023-03-07 12:45:51,1m - 0.931s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:45:51,2023-03-07 12:46:02,10.465s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:46:02,2023-03-07 12:46:20,18.133s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 12:46:20,2023-03-07 12:46:20,0.574s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 12:46:20,2023-03-07 12:46:39,18.548s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 12:46:39,2023-03-07 12:46:39,0.028s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:46:39,2023-03-07 12:49:55,3m - 16.079s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:46:39,2023-03-07 12:46:39,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:46:39,2023-03-07 12:46:39,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:46:39,2023-03-07 12:46:41,1.763s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 12:46:41,2023-03-07 12:46:41,0.146s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 12:46:41,2023-03-07 12:46:55,14.402s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 12:46:55,2023-03-07 12:46:56,0.774s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 12:46:56,2023-03-07 12:47:03,6.540s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 12:47:03,2023-03-07 12:47:03,0.384s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 12:47:03,2023-03-07 12:48:28,1m - 24.626s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 12:48:28,2023-03-07 12:48:38,10.416s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 12:48:38,2023-03-07 12:48:59,20.468s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:48:59,2023-03-07 12:49:55,56.534s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 12:49:55,2023-03-07 12:49:55,0.010s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:49:55,2023-03-07 12:54:54,4m - 59.249s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:49:55,2023-03-07 12:49:55,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:49:55,2023-03-07 12:49:55,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:49:55,2023-03-07 12:49:57,1.776s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 12:49:57,2023-03-07 12:49:57,0.145s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 12:49:57,2023-03-07 12:50:11,14.244s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 12:50:11,2023-03-07 12:50:12,0.731s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 12:50:12,2023-03-07 12:50:19,6.601s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 12:50:19,2023-03-07 12:50:19,0.362s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 12:50:19,2023-03-07 12:51:42,1m - 22.450s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 12:51:42,2023-03-07 12:51:52,10.430s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 12:51:52,2023-03-07 12:52:12,20.485s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:52:12,2023-03-07 12:53:06,53.678s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:53:06,2023-03-07 12:54:07,1m - 0.883s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:54:07,2023-03-07 12:54:17,10.439s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:54:17,2023-03-07 12:54:35,17.732s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 12:54:35,2023-03-07 12:54:36,0.564s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 12:54:36,2023-03-07 12:54:54,18.702s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 12:54:54,2023-03-07 12:54:54,0.018s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:54:55,2023-03-07 12:59:58,5m - 3.316s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:54:55,2023-03-07 12:54:55,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:54:55,2023-03-07 12:54:55,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:54:55,2023-03-07 12:54:56,1.753s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 12:54:56,2023-03-07 12:54:56,0.145s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 12:54:56,2023-03-07 12:55:13,16.168s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 12:55:13,2023-03-07 12:55:13,0.788s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 12:55:13,2023-03-07 12:55:20,6.548s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 12:55:20,2023-03-07 12:55:20,0.375s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 12:55:20,2023-03-07 12:56:43,1m - 23.166s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 12:56:43,2023-03-07 12:56:54,10.425s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 12:56:54,2023-03-07 12:57:14,20.502s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:57:14,2023-03-07 12:58:09,54.784s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:58:09,2023-03-07 12:59:10,1m - 0.886s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 12:59:10,2023-03-07 12:59:21,10.490s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 12:59:21,2023-03-07 12:59:39,18.609s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 12:59:39,2023-03-07 12:59:40,0.582s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 12:59:40,2023-03-07 12:59:58,18.068s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 12:59:58,2023-03-07 12:59:58,0.012s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 12:59:58,2023-03-07 13:01:00,1m - 1.672s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 12:59:58,2023-03-07 12:59:58,0.001s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 12:59:58,2023-03-07 12:59:58,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 12:59:58,2023-03-07 13:00:00,1.720s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:00:00,2023-03-07 13:00:00,0.130s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:00:00,2023-03-07 13:00:14,14.048s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 13:00:14,2023-03-07 13:00:15,0.761s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 13:00:15,2023-03-07 13:00:21,6.604s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 13:00:21,2023-03-07 13:00:22,0.387s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 13:00:22,2023-03-07 13:01:00,37.998s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 13:01:00,2023-03-07 13:01:00,0.010s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:01:00,2023-03-07 13:02:07,1m - 7.293s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:01:00,2023-03-07 13:01:00,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:01:00,2023-03-07 13:01:00,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:01:00,2023-03-07 13:01:01,1.734s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:01:01,2023-03-07 13:01:01,0.144s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:01:01,2023-03-07 13:01:22,20.896s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 13:01:22,2023-03-07 13:01:25,2.129s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 13:01:25,2023-03-07 13:01:31,6.591s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 13:01:31,2023-03-07 13:01:31,0.377s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 13:01:31,2023-03-07 13:02:07,35.404s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 13:02:07,2023-03-07 13:02:07,0.011s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:02:07,2023-03-07 13:03:05,58.136s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:02:07,2023-03-07 13:02:07,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:02:07,2023-03-07 13:02:07,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:02:07,2023-03-07 13:02:09,1.707s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:02:09,2023-03-07 13:02:09,0.124s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:02:09,2023-03-07 13:02:23,13.901s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 13:02:23,2023-03-07 13:02:23,0.744s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 13:02:23,2023-03-07 13:02:30,6.574s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 13:02:30,2023-03-07 13:02:30,0.376s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 13:02:30,2023-03-07 13:03:05,34.690s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 13:03:05,2023-03-07 13:03:05,0.012s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:03:05,2023-03-07 13:04:10,1m - 5.241s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:03:05,2023-03-07 13:03:05,0.008s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:03:05,2023-03-07 13:03:05,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:03:05,2023-03-07 13:03:07,1.718s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:03:07,2023-03-07 13:03:07,0.160s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:03:07,2023-03-07 13:03:24,16.914s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 13:03:24,2023-03-07 13:03:25,0.763s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 13:03:25,2023-03-07 13:03:31,6.562s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 13:03:31,2023-03-07 13:03:32,0.340s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 13:03:32,2023-03-07 13:04:10,38.754s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 13:04:10,2023-03-07 13:04:10,0.012s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:04:10,2023-03-07 13:09:19,5m - 8.872s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:04:10,2023-03-07 13:04:10,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:04:10,2023-03-07 13:04:10,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:04:10,2023-03-07 13:04:12,1.698s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:04:12,2023-03-07 13:04:12,0.137s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:04:12,2023-03-07 13:04:32,19.372s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 13:04:32,2023-03-07 13:04:32,0.835s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 13:04:32,2023-03-07 13:04:39,6.566s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 13:04:39,2023-03-07 13:04:39,0.381s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 13:04:39,2023-03-07 13:06:03,1m - 23.987s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 13:06:03,2023-03-07 13:06:14,10.377s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 13:06:14,2023-03-07 13:06:34,20.476s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 13:06:34,2023-03-07 13:07:30,56.169s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 13:07:30,2023-03-07 13:08:31,1m - 0.979s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 13:08:31,2023-03-07 13:08:42,10.436s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 13:08:42,2023-03-07 13:09:00,18.077s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 13:09:00,2023-03-07 13:09:01,0.576s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 13:09:01,2023-03-07 13:09:19,18.758s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 13:09:19,2023-03-07 13:09:19,0.022s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:09:19,2023-03-07 13:14:06,4m - 46.909s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:09:19,2023-03-07 13:09:19,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:09:19,2023-03-07 13:09:19,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:09:19,2023-03-07 13:09:21,1.719s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:09:21,2023-03-07 13:09:21,0.137s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:09:21,2023-03-07 13:09:41,20.224s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 13:09:41,2023-03-07 13:09:42,1.025s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 13:09:42,2023-03-07 13:09:49,6.367s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 13:09:49,2023-03-07 13:09:49,0.373s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 13:09:49,2023-03-07 13:11:11,1m - 21.794s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 13:11:11,2023-03-07 13:11:21,10.406s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 13:11:21,2023-03-07 13:11:42,20.499s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 13:11:42,2023-03-07 13:12:35,53.440s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 13:12:35,2023-03-07 13:13:36,1m - 0.918s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 13:13:36,2023-03-07 13:13:47,10.496s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 13:13:47,2023-03-07 13:14:06,19.477s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 13:14:06,2023-03-07 13:14:06,0.021s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:14:06,2023-03-07 13:17:14,3m - 8.117s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:14:06,2023-03-07 13:14:06,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:14:06,2023-03-07 13:14:06,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:14:06,2023-03-07 13:14:08,1.698s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:14:08,2023-03-07 13:14:08,0.129s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:14:08,2023-03-07 13:14:23,14.743s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 13:14:23,2023-03-07 13:14:24,0.816s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 13:14:24,2023-03-07 13:14:30,6.684s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 13:14:30,2023-03-07 13:14:31,0.379s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 13:14:31,2023-03-07 13:15:53,1m - 21.843s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 13:15:53,2023-03-07 13:16:03,10.390s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 13:16:03,2023-03-07 13:16:23,20.477s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 13:16:23,2023-03-07 13:17:14,50.933s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 13:17:14,2023-03-07 13:17:14,0.012s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:17:14,2023-03-07 13:18:11,56.514s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:17:14,2023-03-07 13:17:14,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:17:14,2023-03-07 13:17:14,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:17:14,2023-03-07 13:17:16,1.691s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:17:16,2023-03-07 13:17:16,0.141s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:17:16,2023-03-07 13:17:30,13.574s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 13:17:30,2023-03-07 13:17:31,0.772s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 13:17:31,2023-03-07 13:17:37,6.546s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 13:17:37,2023-03-07 13:17:38,0.379s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 13:17:38,2023-03-07 13:18:11,33.381s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 13:18:11,2023-03-07 13:18:11,0.016s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:18:11,2023-03-07 13:19:09,58.487s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:18:11,2023-03-07 13:18:11,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:18:11,2023-03-07 13:18:11,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:18:11,2023-03-07 13:18:13,1.735s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:18:13,2023-03-07 13:18:13,0.128s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:18:13,2023-03-07 13:18:26,13.267s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 13:18:26,2023-03-07 13:18:27,0.752s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 13:18:27,2023-03-07 13:18:33,6.567s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 13:18:33,2023-03-07 13:18:34,0.352s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 13:18:34,2023-03-07 13:19:09,35.653s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 13:19:09,2023-03-07 13:19:09,0.014s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:19:10,2023-03-07 13:19:12,2.142s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:19:10,2023-03-07 13:19:10,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:19:10,2023-03-07 13:19:10,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:19:10,2023-03-07 13:19:11,1.682s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:19:11,2023-03-07 13:19:11,0.144s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:19:11,2023-03-07 13:19:12,0.288s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 13:19:12,2023-03-07 13:19:12,0.012s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:19:12,2023-03-07 13:19:14,2.176s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:19:12,2023-03-07 13:19:12,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:19:12,2023-03-07 13:19:12,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:19:12,2023-03-07 13:19:13,1.708s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:19:13,2023-03-07 13:19:14,0.135s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:19:14,2023-03-07 13:19:14,0.304s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 13:19:14,2023-03-07 13:19:14,0.014s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:19:14,2023-03-07 13:19:50,35.753s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:19:14,2023-03-07 13:19:14,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:19:14,2023-03-07 13:19:14,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:19:14,2023-03-07 13:19:16,1.697s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:19:16,2023-03-07 13:19:16,0.143s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:19:16,2023-03-07 13:19:50,33.893s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 13:19:50,2023-03-07 13:19:50,0.018s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:19:50,2023-03-07 13:20:48,57.789s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:19:50,2023-03-07 13:19:50,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:19:50,2023-03-07 13:19:50,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:19:50,2023-03-07 13:19:52,1.770s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:19:52,2023-03-07 13:19:52,0.142s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:19:52,2023-03-07 13:20:06,14.591s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 13:20:06,2023-03-07 13:20:07,0.807s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 13:20:07,2023-03-07 13:20:14,6.554s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 13:20:14,2023-03-07 13:20:14,0.370s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 13:20:14,2023-03-07 13:20:48,33.537s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 13:20:48,2023-03-07 13:20:48,0.015s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:20:48,2023-03-07 13:25:49,5m - 1.645s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:20:48,2023-03-07 13:20:48,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:20:48,2023-03-07 13:20:48,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:20:48,2023-03-07 13:20:49,1.695s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:20:49,2023-03-07 13:20:49,0.157s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:20:49,2023-03-07 13:21:04,14.764s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 13:21:04,2023-03-07 13:21:05,0.764s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 13:21:05,2023-03-07 13:21:12,6.547s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 13:21:12,2023-03-07 13:21:12,0.382s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 13:21:12,2023-03-07 13:22:33,1m - 21.462s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 13:22:33,2023-03-07 13:22:44,10.518s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 13:22:44,2023-03-07 13:23:04,20.505s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 13:23:04,2023-03-07 13:24:01,56.127s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 13:24:01,2023-03-07 13:25:01,1m - 0.919s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 13:25:01,2023-03-07 13:25:12,10.439s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 13:25:12,2023-03-07 13:25:30,18.181s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 13:25:30,2023-03-07 13:25:30,0.453s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 13:25:30,2023-03-07 13:25:49,18.702s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 13:25:49,2023-03-07 13:25:49,0.022s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:25:49,2023-03-07 13:30:53,5m - 4.011s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:25:49,2023-03-07 13:25:49,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:25:49,2023-03-07 13:25:49,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:25:49,2023-03-07 13:25:51,1.769s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:25:51,2023-03-07 13:25:51,0.139s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:25:51,2023-03-07 13:26:05,13.990s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 13:26:05,2023-03-07 13:26:06,0.838s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 13:26:06,2023-03-07 13:26:13,6.566s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 13:26:13,2023-03-07 13:26:13,0.361s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 13:26:13,2023-03-07 13:27:39,1m - 26.047s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 13:27:39,2023-03-07 13:27:49,10.395s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 13:27:49,2023-03-07 13:28:10,20.492s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 13:28:10,2023-03-07 13:29:05,55.377s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 13:29:05,2023-03-07 13:30:06,1m - 0.871s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 13:30:06,2023-03-07 13:30:17,10.438s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 13:30:17,2023-03-07 13:30:34,17.508s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 13:30:34,2023-03-07 13:30:35,0.542s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 13:30:35,2023-03-07 13:30:53,18.635s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 13:30:53,2023-03-07 13:30:53,0.027s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:30:53,2023-03-07 13:35:56,5m - 2.798s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:30:53,2023-03-07 13:30:53,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:30:53,2023-03-07 13:30:53,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:30:53,2023-03-07 13:30:55,1.724s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:30:55,2023-03-07 13:30:55,0.143s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:30:55,2023-03-07 13:31:10,14.317s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 13:31:10,2023-03-07 13:31:10,0.741s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 13:31:10,2023-03-07 13:31:17,6.534s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 13:31:17,2023-03-07 13:31:17,0.394s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 13:31:17,2023-03-07 13:32:41,1m - 24.242s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 13:32:41,2023-03-07 13:32:52,10.403s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 13:32:52,2023-03-07 13:33:12,20.459s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 13:33:12,2023-03-07 13:34:06,53.257s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 13:34:06,2023-03-07 13:35:06,1m - 0.912s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 13:35:06,2023-03-07 13:35:17,10.438s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 13:35:17,2023-03-07 13:35:36,19.023s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 13:35:36,2023-03-07 13:35:36,0.451s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 13:35:36,2023-03-07 13:35:56,19.716s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 13:35:56,2023-03-07 13:35:56,0.026s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:35:56,2023-03-07 13:36:54,57.981s,FAILED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:35:56,2023-03-07 13:35:56,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:35:56,2023-03-07 13:35:56,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:35:56,2023-03-07 13:35:58,1.786s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:35:58,2023-03-07 13:35:58,0.156s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:35:58,2023-03-07 13:36:13,14.914s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 13:36:13,2023-03-07 13:36:14,0.781s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 13:36:14,2023-03-07 13:36:20,6.571s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 13:36:20,2023-03-07 13:36:21,0.380s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 13:36:21,2023-03-07 13:36:54,33.357s,FAILED
+Start tear down : teardownIfFailed,Chrome 110.0.0.0,,,2023-03-07 13:36:54,2023-03-07 13:36:54,0.016s,PASSED
+,,,,,,,
+Test Cases/Shopify/CreateStore,Chrome 110.0.0.0,,,2023-03-07 13:36:54,2023-03-07 13:41:53,4m - 58.838s,PASSED
+Start listener action : skipStatus,Chrome 110.0.0.0,,,2023-03-07 13:36:54,2023-03-07 13:36:54,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 110.0.0.0,,,2023-03-07 13:36:54,2023-03-07 13:36:54,0.000s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-07 13:36:54,2023-03-07 13:36:56,1.778s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-07 13:36:56,2023-03-07 13:36:56,0.145s,PASSED
+"shopify.store.loginShopifyPartner(partner_email, partner_password, partner_id)",Chrome 110.0.0.0,,,2023-03-07 13:36:56,2023-03-07 13:37:11,15.370s,PASSED
+shopify.store.navigateToStoreDevelop(partner_id),Chrome 110.0.0.0,,,2023-03-07 13:37:11,2023-03-07 13:37:12,0.821s,PASSED
+shopify.store.inputStoreName(store_name),Chrome 110.0.0.0,,,2023-03-07 13:37:12,2023-03-07 13:37:19,6.567s,PASSED
+shopify.store.clickCreateStore(),Chrome 110.0.0.0,,,2023-03-07 13:37:19,2023-03-07 13:37:19,0.348s,PASSED
+shopify.store.importProduct(product_file_local),Chrome 110.0.0.0,,,2023-03-07 13:37:19,2023-03-07 13:38:41,1m - 21.660s,PASSED
+shopify.store.clickOnMenuOnlineStore(),Chrome 110.0.0.0,,,2023-03-07 13:38:41,2023-03-07 13:38:51,10.393s,PASSED
+shopify.store.clickOnImportTheme(),Chrome 110.0.0.0,,,2023-03-07 13:38:51,2023-03-07 13:39:12,20.489s,PASSED
+"shopify.store.innstallThemeShopifyViaUrl(theme_url, store_name)",Chrome 110.0.0.0,,,2023-03-07 13:39:12,2023-03-07 13:40:05,53.200s,PASSED
+shopify.store.clickPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 13:40:05,2023-03-07 13:41:06,1m - 0.868s,PASSED
+shopify.store.confirmPublishTheme(),Chrome 110.0.0.0,,,2023-03-07 13:41:06,2023-03-07 13:41:16,10.429s,PASSED
+"shopify.store_setting.changeStoreCurrency(currency, store_name)",Chrome 110.0.0.0,,,2023-03-07 13:41:16,2023-03-07 13:41:34,18.089s,PASSED
+shopify.store_setting.saveStoreSetting(),Chrome 110.0.0.0,,,2023-03-07 13:41:34,2023-03-07 13:41:35,0.548s,PASSED
+"shopify.store_setting.changeStorePassword(store_name, ""1"")",Chrome 110.0.0.0,,,2023-03-07 13:41:35,2023-03-07 13:41:53,18.095s,PASSED
+Start tear down : teardownIfPassed,Chrome 110.0.0.0,,,2023-03-07 13:41:53,2023-03-07 13:41:53,0.020s,PASSED

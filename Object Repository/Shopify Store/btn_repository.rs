@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_repository</name>
+   <tag></tag>
+   <elementGuidId>f7580ad0-6dd6-4055-b84f-a1dcbf2f4960</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'SelectButton')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()='Select']
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>SelectButton</value>
+      <webElementGuid>5f1e7e9c-4a2a-4f63-bd34-ddff759fd0c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>BvPr0</value>
+      <webElementGuid>b8fea7b4-66aa-4c98-84f1-6f942e5c8609</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

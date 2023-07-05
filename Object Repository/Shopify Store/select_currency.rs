@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_currency</name>
+   <tag></tag>
+   <elementGuidId>826f3aa6-c487-4358-9d4f-cb5d59701712</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'PolarisSelect') and @class = 'Polaris-Select__Input_30ock']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>PolarisSelect</value>
+      <webElementGuid>c61a44e2-f8e7-4035-9553-23ce94973dfa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Polaris-Select__Input_30ock</value>
+      <webElementGuid>c3dee4eb-2f1c-430c-a9d9-82b031790146</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

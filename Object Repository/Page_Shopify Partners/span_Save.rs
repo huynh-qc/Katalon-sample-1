@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Save</name>
+   <tag></tag>
+   <elementGuidId>be4a4f1a-5b51-441d-bcf5-ef42115d9f02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.Polaris-Stack_32wu2.Polaris-Stack--spacingTight_1o4d6.Polaris-Stack--distributionEqualSpacing_x9cqm > div.Polaris-Stack__Item_yiyol > button.Polaris-Button_r99lw.Polaris-Button--primary_7k9zs > span.Polaris-Button__Content_xd1mk > span.Polaris-Button__Text_yj3uv</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='AppFrameMain']/div/div/div[2]/div[2]/div/div/div[2]/button/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Polaris-Button__Text_yj3uv</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-dashboard-app&quot;)/div[1]/div[@class=&quot;p_ZT4&quot;]/div[@class=&quot;Polaris-Frame_2qi9y&quot;]/main[@id=&quot;AppFrameMain&quot;]/div[@class=&quot;Polaris-Frame__Content_xd1mk&quot;]/div[@class=&quot;Polaris-Page_yisnh&quot;]/div[@class=&quot;Polaris-Page__Content_xd1mk&quot;]/div[@class=&quot;Nrsho wXsuS&quot;]/div[@class=&quot;Polaris-PageActions_fcnua&quot;]/div[@class=&quot;Polaris-Stack_32wu2 Polaris-Stack--spacingTight_1o4d6 Polaris-Stack--distributionEqualSpacing_x9cqm&quot;]/div[@class=&quot;Polaris-Stack__Item_yiyol&quot;]/button[@class=&quot;Polaris-Button_r99lw Polaris-Button--primary_7k9zs&quot;]/span[@class=&quot;Polaris-Button__Content_xd1mk&quot;]/span[@class=&quot;Polaris-Button__Text_yj3uv&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='AppFrameMain']/div/div/div[2]/div[2]/div/div/div[2]/button/span/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[3]/following::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('I', &quot;'&quot;, 'm just playing around')])[1]/following::span[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div[2]/button/span/span</value>
+   </webElementXpaths>
+</WebElementEntity>

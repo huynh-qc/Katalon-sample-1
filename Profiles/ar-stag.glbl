@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>ar-stag</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://ar-app-staging.fireapps.tech/'</initValue>
+      <name>host</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'huynh@firegroup.io'</initValue>
+      <name>partner_email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'aFIq2JAxbLdIICk85ZHRFA=='</initValue>
+      <name>partner_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>https://partners.shopify.com/1662018/stores/news?tore_type=dev_preview_store&amp;developer_preview_handle=checkout_extensibility</description>
+      <initValue>'1662018'</initValue>
+      <name>partner_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>D:\\Users\\Admin\\Downloads\\products_export_1 (5).csv</description>
+      <initValue>'C:\\Users\\huynh\\Desktop\\products_export.csv'</initValue>
+      <name>product_file_local</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\huynh\\Desktop\\theme.zip'</initValue>
+      <name>theme_file_local</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://ar-app-uat.fireapps.tech/install'</initValue>
+      <name>ar_stag</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

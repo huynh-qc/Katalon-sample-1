@@ -1,0 +1,2101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Install Store Free" time="505.763" tests="9" failures="9" errors="0">
+   <testsuite name="Install Store Free" tests="9" failures="9" errors="0" time="505.763" skipped="0" timestamp="2023-02-16 17:22:51" hostname="huynh - huynh.mshome.net" id="Test Suites/Alireview/Install Store Free">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242"/>
+         <property name="logFiles" value="C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543024411.png, C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543076270.png, C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543138597.png, C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543203477.png, C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543259104.png, C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543313629.png, C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543373852.png, C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543423896.png, C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543477461.png"/>
+         <property name="hostName" value="huynh - huynh.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="172.18.224.1"/>
+         <property name="sessionId" value="ac3afe437d701c9c6fa1c77699cf987e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Alireview/Install new store free" time="52.901" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 17:22:52 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 17:22:52 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 17:22:52 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 17:22:52 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 17:22:52 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 17:22:52 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 17:22:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 17:22:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 17:22:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 17:22:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 17:22:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 17:22:54 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 17:22:54 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:22:58 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2365.myshopify.com/admin' successfully
+
+2023-02-16 17:22:59 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 17:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 17:23:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 17:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 17:23:12 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:23:12 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:23:29 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 17:23:30 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2365' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 17:23:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 17:23:32 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:23:32 - [TEST_STEP][PASSED] - alireview.install.installStep1(): alireview.install.installStep1 is PASSED
+
+2023-02-16 17:23:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify Install App/btn_install_step1' is clicked on
+
+2023-02-16 17:23:37 - [MESSAGE][PASSED] - alireview.install.installStep1 is PASSED
+
+2023-02-16 17:23:37 - [TEST_STEP][FAILED] - alireview.install.onboardingSelectColor(color): Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:23:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@name = 'app-iframe']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:23:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Alireview/iframe_app'. Try using Self-healing.
+
+2023-02-16 17:23:43 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 17:23:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:23:44 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 17:23:44 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543024411.png]]
+
+2023-02-16 17:23:44 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:23:44 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 17:23:44 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 17:23:44 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 17:23:44 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 17:23:44 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 17:22:52 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alireview/Install new store free" time="51.484" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 17:23:44 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 17:23:45 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 17:23:45 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 17:23:45 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 17:23:45 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 17:23:45 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 17:23:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 17:23:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-16 17:23:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 17:23:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 17:23:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 17:23:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 17:23:46 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 17:23:46 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:23:51 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2366.myshopify.com/admin' successfully
+
+2023-02-16 17:23:52 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 17:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 17:23:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 17:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 17:24:03 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:24:03 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:24:20 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 17:24:21 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2366' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 17:24:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 17:24:23 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:24:23 - [TEST_STEP][PASSED] - alireview.install.installStep1(): alireview.install.installStep1 is PASSED
+
+2023-02-16 17:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify Install App/btn_install_step1' is clicked on
+
+2023-02-16 17:24:26 - [MESSAGE][PASSED] - alireview.install.installStep1 is PASSED
+
+2023-02-16 17:24:26 - [TEST_STEP][FAILED] - alireview.install.onboardingSelectColor(color): Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:24:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@name = 'app-iframe']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:24:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Alireview/iframe_app'. Try using Self-healing.
+
+2023-02-16 17:24:35 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 17:24:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:24:36 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 17:24:36 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543076270.png]]
+
+2023-02-16 17:24:36 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:24:36 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 17:24:36 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 17:24:36 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 17:24:36 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 17:24:36 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 17:23:44 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alireview/Install new store free" time="62.31" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 17:24:36 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 17:24:36 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 17:24:36 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 17:24:36 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 17:24:36 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 17:24:36 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 17:24:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 17:24:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-16 17:24:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 17:24:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 17:24:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 17:24:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 17:24:38 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 17:24:38 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:24:42 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2367.myshopify.com/admin' successfully
+
+2023-02-16 17:24:43 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 17:24:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 17:24:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 17:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 17:24:56 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:24:56 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:25:16 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 17:25:17 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2367' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 17:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 17:25:19 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:25:19 - [TEST_STEP][PASSED] - alireview.install.installStep1(): alireview.install.installStep1 is PASSED
+
+2023-02-16 17:25:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify Install App/btn_install_step1' is clicked on
+
+2023-02-16 17:25:28 - [MESSAGE][PASSED] - alireview.install.installStep1 is PASSED
+
+2023-02-16 17:25:28 - [TEST_STEP][FAILED] - alireview.install.onboardingSelectColor(color): Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:25:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@name = 'app-iframe']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:25:36 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Alireview/iframe_app'. Try using Self-healing.
+
+2023-02-16 17:25:37 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 17:25:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:25:38 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 17:25:38 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543138597.png]]
+
+2023-02-16 17:25:38 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:25:38 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 17:25:38 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 17:25:38 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 17:25:38 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 17:25:38 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 17:24:36 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alireview/Install new store free" time="64.871" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 17:25:38 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 17:25:38 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 17:25:38 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 17:25:38 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 17:25:38 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 17:25:38 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 17:25:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 17:25:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-16 17:25:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 17:25:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 17:25:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 17:25:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 17:25:40 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 17:25:40 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:25:44 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2368.myshopify.com/admin' successfully
+
+2023-02-16 17:25:45 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 17:25:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 17:25:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 17:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 17:25:58 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:25:58 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:26:17 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 17:26:18 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2368' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 17:26:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 17:26:20 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:26:20 - [TEST_STEP][PASSED] - alireview.install.installStep1(): alireview.install.installStep1 is PASSED
+
+2023-02-16 17:26:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify Install App/btn_install_step1' is clicked on
+
+2023-02-16 17:26:33 - [MESSAGE][PASSED] - alireview.install.installStep1 is PASSED
+
+2023-02-16 17:26:33 - [TEST_STEP][FAILED] - alireview.install.onboardingSelectColor(color): Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:26:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@name = 'app-iframe']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:26:41 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Alireview/iframe_app'. Try using Self-healing.
+
+2023-02-16 17:26:42 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 17:26:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:26:43 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 17:26:43 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543203477.png]]
+
+2023-02-16 17:26:43 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:26:43 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 17:26:43 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 17:26:43 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 17:26:43 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 17:26:43 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 17:25:38 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alireview/Install new store free" time="55.624" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 17:26:43 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 17:26:43 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 17:26:43 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 17:26:43 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 17:26:43 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 17:26:43 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 17:26:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 17:26:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-16 17:26:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 17:26:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 17:26:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 17:26:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 17:26:45 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 17:26:45 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:26:49 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2369.myshopify.com/admin' successfully
+
+2023-02-16 17:26:50 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 17:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 17:26:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 17:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 17:27:04 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:27:04 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:27:20 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 17:27:21 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2369' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 17:27:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 17:27:23 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:27:23 - [TEST_STEP][PASSED] - alireview.install.installStep1(): alireview.install.installStep1 is PASSED
+
+2023-02-16 17:27:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify Install App/btn_install_step1' is clicked on
+
+2023-02-16 17:27:29 - [MESSAGE][PASSED] - alireview.install.installStep1 is PASSED
+
+2023-02-16 17:27:29 - [TEST_STEP][FAILED] - alireview.install.onboardingSelectColor(color): Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:27:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@name = 'app-iframe']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:27:36 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Alireview/iframe_app'. Try using Self-healing.
+
+2023-02-16 17:27:37 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 17:27:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:27:39 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 17:27:39 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543259104.png]]
+
+2023-02-16 17:27:39 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:27:39 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 17:27:39 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 17:27:39 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 17:27:39 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 17:27:39 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 17:26:43 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alireview/Install new store free" time="54.514" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 17:27:39 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 17:27:39 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 17:27:39 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 17:27:39 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 17:27:39 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 17:27:39 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 17:27:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 17:27:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-16 17:27:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 17:27:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 17:27:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 17:27:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 17:27:41 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 17:27:41 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:27:44 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2370.myshopify.com/admin' successfully
+
+2023-02-16 17:27:45 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 17:27:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 17:27:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 17:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 17:27:59 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:27:59 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:28:16 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 17:28:17 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2370' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 17:28:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 17:28:19 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:28:19 - [TEST_STEP][PASSED] - alireview.install.installStep1(): alireview.install.installStep1 is PASSED
+
+2023-02-16 17:28:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify Install App/btn_install_step1' is clicked on
+
+2023-02-16 17:28:24 - [MESSAGE][PASSED] - alireview.install.installStep1 is PASSED
+
+2023-02-16 17:28:24 - [TEST_STEP][FAILED] - alireview.install.onboardingSelectColor(color): Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:28:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@name = 'app-iframe']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:28:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Alireview/iframe_app'. Try using Self-healing.
+
+2023-02-16 17:28:32 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 17:28:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:28:33 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 17:28:33 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543313629.png]]
+
+2023-02-16 17:28:33 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:28:33 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 17:28:33 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 17:28:33 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 17:28:33 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 17:28:33 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 17:27:39 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alireview/Install new store free" time="60.187" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 17:28:33 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 17:28:33 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 17:28:33 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 17:28:33 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 17:28:33 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 17:28:33 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 17:28:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 17:28:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-16 17:28:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 17:28:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 17:28:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 17:28:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 17:28:35 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 17:28:35 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:28:40 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2371.myshopify.com/admin' successfully
+
+2023-02-16 17:28:41 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 17:28:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 17:28:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 17:28:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 17:28:53 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:28:53 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:29:11 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 17:29:12 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2371' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 17:29:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 17:29:14 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:29:14 - [TEST_STEP][PASSED] - alireview.install.installStep1(): alireview.install.installStep1 is PASSED
+
+2023-02-16 17:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify Install App/btn_install_step1' is clicked on
+
+2023-02-16 17:29:25 - [MESSAGE][PASSED] - alireview.install.installStep1 is PASSED
+
+2023-02-16 17:29:25 - [TEST_STEP][FAILED] - alireview.install.onboardingSelectColor(color): Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:29:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@name = 'app-iframe']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:29:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Alireview/iframe_app'. Try using Self-healing.
+
+2023-02-16 17:29:32 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 17:29:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:29:33 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 17:29:33 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543373852.png]]
+
+2023-02-16 17:29:33 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:29:33 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 17:29:33 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 17:29:33 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 17:29:34 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 17:29:34 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 17:28:33 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alireview/Install new store free" time="50.038" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 17:29:34 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 17:29:34 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 17:29:34 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 17:29:34 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 17:29:34 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 17:29:34 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 17:29:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 17:29:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-16 17:29:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 17:29:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 17:29:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 17:29:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 17:29:35 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 17:29:35 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:29:40 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2372.myshopify.com/admin' successfully
+
+2023-02-16 17:29:41 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 17:29:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 17:29:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 17:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 17:29:53 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:29:53 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:30:11 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 17:30:12 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2372' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 17:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 17:30:14 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:30:14 - [TEST_STEP][PASSED] - alireview.install.installStep1(): alireview.install.installStep1 is PASSED
+
+2023-02-16 17:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify Install App/btn_install_step1' is clicked on
+
+2023-02-16 17:30:16 - [MESSAGE][PASSED] - alireview.install.installStep1 is PASSED
+
+2023-02-16 17:30:16 - [TEST_STEP][FAILED] - alireview.install.onboardingSelectColor(color): Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:30:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@name = 'app-iframe']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:30:21 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Alireview/iframe_app'. Try using Self-healing.
+
+2023-02-16 17:30:22 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 17:30:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:30:23 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 17:30:24 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543423896.png]]
+
+2023-02-16 17:30:24 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:30:24 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 17:30:24 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 17:30:24 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 17:30:24 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 17:30:24 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 17:29:34 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alireview/Install new store free" time="53.571" classname="Test Cases/Alireview/Install new store free" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-02-16 17:30:24 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-02-16 17:30:24 - [TEST_STEP][PASSED] - Start listener action : skipStatus: null
+
+2023-02-16 17:30:24 - [TEST_STEP][PASSED] - map = testCaseContext.getTestCaseVariables(): null
+
+2023-02-16 17:30:24 - [TEST_STEP][PASSED] - testcae_status = map.get("testcase_status"): null
+
+2023-02-16 17:30:24 - [TEST_STEP][PASSED] - println(testcae_status): null
+
+2023-02-16 17:30:24 - [TEST_STEP][PASSED] - if (testcae_status == "Passed" || testcae_status == "Failed"): null
+
+2023-02-16 17:30:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-16 17:30:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-02-16 17:30:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-16 17:30:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-16 17:30:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-16 17:30:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-16 17:30:25 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-16 17:30:25 - [TEST_STEP][PASSED] - shopify.store.loginToStoreAdmin(partner_email, partner_password, store_name): shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:30:29 - [MESSAGE][PASSED] - Navigate to 'http://huynh-ar-stag-2373.myshopify.com/admin' successfully
+
+2023-02-16 17:30:30 - [MESSAGE][PASSED] - Text 'huynh@firegroup.io' is set on object 'Object Repository/Shopify/input_email_shopify'
+
+2023-02-16 17:30:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_continue_with_email' is clicked on
+
+2023-02-16 17:30:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Shopify/input_password_shopify'
+
+2023-02-16 17:30:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify/btn_login' is clicked on
+
+2023-02-16 17:30:43 - [MESSAGE][PASSED] - shopify.store.loginToStoreAdmin is PASSED
+
+2023-02-16 17:30:43 - [TEST_STEP][PASSED] - alireview.install.inputRawDomain(store_name, host): alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:31:01 - [MESSAGE][PASSED] - Navigate to 'https://ar-app-staging.fireapps.tech/' successfully
+
+2023-02-16 17:31:02 - [MESSAGE][PASSED] - Text 'huynh-ar-stag-2373' is set on object 'Object Repository/Alireview/input_shop'
+
+2023-02-16 17:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Alireview/btn_login' is clicked on
+
+2023-02-16 17:31:04 - [MESSAGE][PASSED] - alireview.install.inputRawDomain is PASSED
+
+2023-02-16 17:31:04 - [TEST_STEP][PASSED] - alireview.install.installStep1(): alireview.install.installStep1 is PASSED
+
+2023-02-16 17:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Shopify Install App/btn_install_step1' is clicked on
+
+2023-02-16 17:31:08 - [MESSAGE][PASSED] - alireview.install.installStep1 is PASSED
+
+2023-02-16 17:31:08 - [TEST_STEP][FAILED] - alireview.install.onboardingSelectColor(color): Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:31:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@name = 'app-iframe']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:31:15 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Alireview/iframe_app'. Try using Self-healing.
+
+2023-02-16 17:31:16 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2023-02-16 17:31:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-02-16 17:31:17 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2023-02-16 17:31:17 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1673948457755.run(Script1673948457755.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\huynh\\Documents\\Socialhead\\Automation\\Katalon project\\CreateStore\\CreateStore\\Reports\\20230216_172241\\Alireview\\Install Store Free\\20230216_172242\\1676543477461.png]]
+
+2023-02-16 17:31:17 - [MESSAGE][FAILED] - Unable to verify image 'Object Repository/Alireview/iframe_app' present
+
+2023-02-16 17:31:17 - [TEST_STEP][PASSED] - Start tear down : teardownIfFailed: Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)
+
+2023-02-16 17:31:17 - [TEST_STEP][PASSED] - excelFilePath = "Data Files\store free 2.xlsx": null
+
+2023-02-16 17:31:17 - [TEST_STEP][ERROR] - data.excel.updateValueToSheet(excelFilePath, "store", 4, store_name, 9, "Not install"): Error evaluating cell Sheet2!B1
+
+2023-02-16 17:31:17 - [MESSAGE][ERROR] - Error evaluating cell Sheet2!B1
+
+2023-02-16 17:31:17 - [MESSAGE][WARNING] - Error occurred when try to run method 'teardownIfFailed' (Root cause: com.kms.katalon.core.exception.StepErrorException - com.kms.katalon.core.exception.StepErrorException: org.apache.poi.ss.formula.eval.NotImplementedException: Error evaluating cell Sheet2!B1)]]></system-out>
+         <system-err><![CDATA[2023-02-16 17:30:24 - [TEST_CASE][FAILED] - Test Cases/Alireview/Install new store free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-16 17:22:51 - [TEST_SUITE][FAILED] - Install Store Free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-out>
+      <system-err><![CDATA[2023-02-16 17:22:51 - [TEST_SUITE][FAILED] - Install Store Free: Test Cases/Alireview/Install new store free FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify image 'Object Repository/Alireview/iframe_app' present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.switchToFrame(SwitchToFrameKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword.execute(SwitchToFrameKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToFrame(WebUiBuiltInKeywords.groovy:2899)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToFrame$6.call(Unknown Source)
+	at alireview.install.onboardingSelectColor(install.groovy:38)
+	at alireview.install.invokeMethod(install.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Install new store free.run(Install new store free:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676542962851.run(TempTestSuite1676542962851.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Alireview/iframe_app' located by '//*[@name = 'app-iframe']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.doCall(SwitchToFrameKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToFrameKeyword$_switchToFrame_closure1.call(SwitchToFrameKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+   </testsuite>
+</testsuites>
